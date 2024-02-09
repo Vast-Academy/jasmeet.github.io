@@ -6,6 +6,23 @@
   background-color: rgba(204, 196, 196, 0.664);
 }
 
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #343a40; /* Change the background color for smaller screens if needed */
+    }
+}
+
  .carousel-inner {
    height: 250px;
  }
